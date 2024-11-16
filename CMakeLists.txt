@@ -8,9 +8,9 @@ project(LoggerAdvanced)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Добавляем исполняемый файл
+# Добавляем исполняемый файл с указанием нового имени основного файла
 add_executable(LoggerAdvanced
-    main.cpp
+    "HW.7 Logger_HW.5_Advanced.cpp"
     Logger.cpp
 )
 
