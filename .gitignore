@@ -1,0 +1,37 @@
+# Игнорировать временные файлы сборки
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Игнорировать исполняемые файлы
+*.exe
+*.out
+
+# Игнорировать файлы логов
+log.txt
+
+# Игнорировать временные файлы редакторов
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Игнорировать временные файлы Visual Studio
+/x64/
+*.vcxproj*
+*.sln
+*.ipch
+*.obj
+*.pch
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.user
+*.ncb
+*.suo
+*.opendb
+*.VC.db
